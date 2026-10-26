@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo -n $DOTCADENCE/Pokémon/
+
+case $(hostname -s) in
+    "armarouge")
+        echo Armarouge.txt
+	;;
+    "ceruledge")
+        echo Ceruledge.txt
+	;;
+    "charcadet")
+        echo Charcadet.txt
+	;;
+    *)
+        echo Ditto.txt
+	;;
+esac
+

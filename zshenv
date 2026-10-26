@@ -1,0 +1,2 @@
+export DOTCADENCE="$HOME/dotcadence"
+

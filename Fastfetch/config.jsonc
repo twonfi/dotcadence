@@ -1,0 +1,102 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": " ┆ ",
+    "key": {
+      "type": "string",
+      "paddingLeft": 2
+    }
+  },
+  "modules": [
+    {
+        "type": "title",
+        // Poké Ball
+        "format": "󰐝 {user-name-colored}{at-symbol-colored}{host-name-colored}"
+    },
+    {
+      "type": "separator",
+      "string": "~-"
+    },
+    {
+        "type": "os",
+        // Gears
+        "key": "",
+        "format": "{name} {version} {codename}"
+    },
+    {
+        "type": "kernel",
+        // Atom
+        "key": "󰝨",
+        "format": "{release}"
+    },
+    {
+        "type": "uptime",
+        // Stopwatch
+        "key": ""
+    },
+    {
+        "type": "shell",
+        // >_
+        "key": ""
+    },
+    {
+        "type": "de",
+        // Monitor
+        "key": ""
+    },
+    {
+        "type": "theme",
+        // Monitor
+        "key": ""
+    },
+    {
+        "type": "icons",
+        // Image
+        "key": ""
+    },
+    {
+        "type": "font",
+        // Serif AA
+        "key": ""
+    },
+    {
+        "type": "terminalfont",
+        // Half-serif A
+        "key": ""
+    },
+    {
+        "type": "cpu",
+        // Microprocessor
+        "key": ""
+    },
+    {
+        "type": "memory",
+        // Chip (nf-fa-memory is a box drawing char?)
+        "key": "󰍛"
+    },
+    {
+        "type": "disk",
+        // Hard drive
+        "key": "",
+        "format": "{mountpoint} [{name}] {size-used} / {size-total} ({size-percentage})"
+    },
+    { // CadenceNet (Linux only)
+        "type": "command",
+        // Networked computer
+        "key": "󰲝",
+        "text": "if tailscale status > /dev/null; then hostname; else echo offline; fi"
+    },
+    { // Music (Linux only)
+        "type": "command",
+        // Audio file
+        "key": "󰸪",
+        "text": "playerctl metadata --format '{{artist}} -- {{title}} ({{duration(position)}} / {{duration(mpris:length)}})'"
+    },
+    "battery",
+    "poweradapter",
+    "break",
+    {
+      "type": "colors"
+    }
+  ]
+}
