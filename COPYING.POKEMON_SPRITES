@@ -1,0 +1,8 @@
+Files that are named after a Pokémon (for example, Armarouge.txt)
+were generated using Krabby <https://github.com/yannjor/krabby>,
+copyright 2022-2025 Yann Jorelle, licensed under GPLv3.
+
+The files are used in PowerShell, which (for some reason)
+can't properly render the Pokémon on Windows when piped.
+This doesn't affect Zsh or PowerShell on Linux.
+
