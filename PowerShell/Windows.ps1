@@ -15,7 +15,7 @@ $devShellPath = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\T
 
 if (Test-Path $devShellPath) {
     Import-Module $devShellPath
-    Enter-VsDevShell -VsInstallPath "C:\Program Files\Microsoft Visual Studio\18\Community" -SkipAutomaticLocation -DevCmdArguments '-arch=x64 -host_arch=x64' | Out-Null
+    $null = Enter-VsDevShell -VsInstallPath "C:\Program Files\Microsoft Visual Studio\18\Community" -SkipAutomaticLocation -DevCmdArguments '-arch=x64 -host_arch=x64'
 }
 
 $env:INCLUDE = "C:\boost_1_92_0;$env:INCLUDE"

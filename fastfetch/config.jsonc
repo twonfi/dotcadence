@@ -78,7 +78,8 @@
         "type": "disk",
         // Hard drive
         "key": "",
-        "format": "{mountpoint} [{name}] {size-used} / {size-total} ({size-percentage})"
+        "format": "{mountpoint} [{name}] {size-used} / {size-total} ({size-percentage})",
+        "hideFS": "nfs:nfs4:cifs"
     },
     { // CadenceNet (Linux only)
         "type": "command",
