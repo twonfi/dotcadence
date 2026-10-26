@@ -7,6 +7,8 @@ function cadefetch {
 cadefetch
 echo
 
+alias stow="stow -t $HOME"
+
 autoload -Uz promptinit
 promptinit
 prompt adam1
