@@ -35,7 +35,6 @@ final_space = true
 
     [blocks.segments.options]
       folder_icon = ''
-      folder_separator_icon = '\'
       home_icon = '~'
       style = 'full'
 
