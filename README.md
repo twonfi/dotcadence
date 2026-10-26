@@ -1,4 +1,6 @@
-![](Screenshot/Windows_PowerShell.png)
+![](screenshot/Windows_PowerShell.png)
+
+# DotCadence
 
 My dotfiles and configuration stuff for Windows (PowerShell) and Debian (Zsh/PowerShell).
 
