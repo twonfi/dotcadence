@@ -1,4 +1,4 @@
-![](screenshot/Windows_PowerShell.png)
+![](Screenshot/Windows_PowerShell.png)
 
 My dotfiles and configuration stuff for Windows (PowerShell) and Debian (Zsh/PowerShell).
 
