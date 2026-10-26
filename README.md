@@ -1,3 +1,5 @@
+![](screenshot/Windows_PowerShell.png)
+
 My dotfiles and configuration stuff for Windows (PowerShell) and Debian (Zsh/PowerShell).
 
 The directory structure is mostly flat, symlinked to `$DOTCADENCE/stow` for GNU Stow usage.
