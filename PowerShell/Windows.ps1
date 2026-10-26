@@ -13,8 +13,8 @@ Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteCharOrExit
 # Load Visual Studio Developer Environment
 $devShellPath = "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"
 
-if (Test-Path $devShellPath) {
-    Import-Module $devShellPath
+if (Test-Path -Path $devShellPath) {
+    Import-Module -Name $devShellPath
     $null = Enter-VsDevShell -VsInstallPath "C:\Program Files\Microsoft Visual Studio\18\Community" -SkipAutomaticLocation -DevCmdArguments '-arch=x64 -host_arch=x64'
 }
 
