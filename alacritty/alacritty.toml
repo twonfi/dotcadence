@@ -1,0 +1,37 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/dark_pastels.toml"
+]
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+opacity = 0.85
+blur = true
+
+[window.padding]
+x = 5
+y = 5
+
+[window.dimensions]
+columns = 110
+lines = 35
+
+[font.normal]
+family = "Cascadia Code"
+style = "Regular"
+
+[font.bold]
+family = "Cascadia Code"
+style = "Bold"
+
+[font.italic]
+family = "Cascadia Code"
+style = "Italic"
+
+[font.bold_italic]
+family = "Cascadia Code"
+style = "Bold Italic"
+

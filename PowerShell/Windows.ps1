@@ -27,5 +27,3 @@ function mklink { cmd.exe /c mklink @args }
 
 function less { & 'C:\Program Files\Git\usr\bin\less.exe' @args }
 
-oh-my-posh init pwsh --config $HOME\dotcadence\cadence.omp.toml | Invoke-Expression
-
