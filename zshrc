@@ -1,5 +1,3 @@
-export PATH=$PATH:/home/twonum/.local/bin
-
 #alias cadefetch="krabby name charcadet --no-title --padding-left 2 | fastfetch --logo-type file --logo -"
 function cadefetch {
      fastfetch --logo-type file --logo $($DOTCADENCE/cadefetch_pokemon_path)
@@ -8,10 +6,6 @@ cadefetch
 echo
 
 alias stow="stow -t $HOME"
-
-autoload -Uz promptinit
-promptinit
-prompt adam1
 
 setopt histignorealldups sharehistory
 
