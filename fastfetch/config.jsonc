@@ -92,8 +92,14 @@
         "key": "󰸪",
         "text": "playerctl metadata --format '{{artist}} -- {{title}} ({{duration(position)}} / {{duration(mpris:length)}})'"
     },
-    "battery",
-    "poweradapter",
+    {
+        "type": "battery",
+	"key": ""
+    },
+    {
+        "type": "poweradapter",
+	"key": ""
+    },
     "break",
     {
       "type": "colors"
