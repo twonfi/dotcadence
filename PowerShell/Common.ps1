@@ -1,3 +1,7 @@
+$Pokaymon = 'Pokémon'
+$POKAYMON = 'POKÉMON'
+$pokaymon = 'pokémon'
+
 $HOSTNAME = [Environment]::MachineName.toLower()
 
 function Get-PokemonFile {
