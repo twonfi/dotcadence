@@ -2,24 +2,32 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "display": {
     "separator": " ┆ ",
+    "color": {
+        "keys": "38;2;202;114;192",
+        "separator": "38;2;205;193;230"
+    },
     "key": {
       "type": "string",
-      "paddingLeft": 2
+      "paddingLeft": 4
     }
   },
   "modules": [
     {
         "type": "title",
         // Poké Ball
-        "format": "󰐝 {user-name-colored}{at-symbol-colored}{host-name-colored}"
+        "format": "{#38;2;222;59;44}󰐝 {#38;2;202;114;192}{user-name}@{host-name}"
     },
     {
-      "type": "separator",
-      "string": "~-"
+        "type": "custom",
+        "format": "{#black}~-~-~-~-~-~-~-~-~-~"
+    },
+    {
+        "type": "custom",
+        "format": "  {#38;2;166;126;242}▶ {#38;2;164;197;244}SYSTEM"
     },
     {
         "type": "os",
-        // Gears
+        // Gear
         "key": "",
         "format": "{name} {version} {codename}"
     },
@@ -30,9 +38,8 @@
         "format": "{release}"
     },
     {
-        "type": "uptime",
-        // Stopwatch
-        "key": ""
+        "type": "custom",
+        "format": "  {#38;2;166;126;242}▶ {#38;2;164;197;244}SOFTWARE"
     },
     {
         "type": "shell",
@@ -44,25 +51,29 @@
         // Monitor
         "key": ""
     },
+//     {
+//         "type": "theme",
+//         // Monitor
+//         "key": ""
+//     },
+//     {
+//         "type": "icons",
+//         // Image
+//         "key": ""
+//     },
+//     {
+//         "type": "font",
+//         // Serif AA
+//         "key": ""
+//     },
+//     {
+//         "type": "terminalfont",
+//         // Half-serif A
+//         "key": ""
+//     },
     {
-        "type": "theme",
-        // Monitor
-        "key": ""
-    },
-    {
-        "type": "icons",
-        // Image
-        "key": ""
-    },
-    {
-        "type": "font",
-        // Serif AA
-        "key": ""
-    },
-    {
-        "type": "terminalfont",
-        // Half-serif A
-        "key": ""
+        "type": "custom",
+        "format": "  {#38;2;166;126;242}▶ {#38;2;164;197;244}HARDWARE"
     },
     {
         "type": "cpu",
@@ -73,6 +84,15 @@
         "type": "memory",
         // Chip (nf-fa-memory is a box drawing char?)
         "key": "󰍛"
+    },
+    {
+        "type": "uptime",
+        // Stopwatch
+        "key": ""
+    },
+    {
+        "type": "custom",
+        "format": "  {#38;2;166;126;242}▶ {#38;2;164;197;244}MISC"
     },
     {
         "type": "disk",
@@ -95,11 +115,13 @@
     },
     {
         "type": "battery",
-	"key": ""
+        // Battery
+        "key": ""
     },
     {
         "type": "poweradapter",
-	"key": ""
+        // Plug
+        "key": ""
     },
     "break",
     {

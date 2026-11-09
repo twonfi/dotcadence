@@ -16,9 +16,10 @@ x = 5
 y = 5
 
 [window.dimensions]
-columns = 110
+columns = 120
 lines = 35
 
+## CASCADIA CODE
 [font.normal]
 family = "Cascadia Code"
 style = "Regular"
@@ -34,4 +35,21 @@ style = "Italic"
 [font.bold_italic]
 family = "Cascadia Code"
 style = "Bold Italic"
+
+## DEPARTURE MONO
+#[font.normal]
+#family = "Departure Mono"
+#style = "Regular"
+#
+#[font.bold]
+#family = "Departure Mono"
+#style = "Bold"
+#
+#[font.italic]
+#family = "Departure Mono"
+#style = "Italic"
+#
+#[font.bold_italic]
+#family = "Departure Mono"
+#style = "Bold Italic"
 

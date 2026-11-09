@@ -5,7 +5,9 @@ function cadefetch {
 cadefetch
 echo
 
+alias gotodc="cd $DOTCADENCE"
 alias stow="stow -t $HOME"
+alias plasma="dbus-run-session startplasma-wayland"
 
 setopt histignorealldups sharehistory
 
