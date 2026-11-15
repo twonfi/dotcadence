@@ -1,0 +1,4 @@
+#!/bin/bash
+
+kscreen-doctor --dpms off
+

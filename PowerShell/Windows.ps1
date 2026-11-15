@@ -4,7 +4,7 @@ $DOTCADENCE = $env:DOTCADENCE
 $DOTCADENCE_COMMON = "$DOTCADENCE\powershell\Common.ps1"
 $DOTCADENCE_SYSTEM = "$DOTCADENCE\powershell\Windows.ps1"
 
-. $DOTCADENCE\powershell\Common.ps1
+. $DOTCADENCE_COMMON
 
 Set-Alias -Name python3 -Value py
 
