@@ -8,3 +8,14 @@ The directory structure is mostly flat, symlinked to `$DOTCADENCE/stow` for GNU 
 
 You can adapt them; however, don't use them directly as so many things (most notably Pokémon, and the number of files with `pokemon` somewhere) are hardcoded. That said, you can try to fit this to your liking if you like my configs.
 
+## What is CadenceNet? What's with the Pokémon references?
+It's my personal network and infrastructure, hosted on cadencenet.com.
+
+Most CadenceNet servers follow an arbitrary naming scheme, but new ones (after mid-2026) use Pokémon names:
+
+- Fun
+- Maps to IP addresses I can use the Pokédex to look up
+- Fastfetch logos
+- Creates relations with evolutions/forms (VM on armarouge: charcadet)
+- I don't know anyone else that names computers after Pokémon, so probably less conflicts
+
