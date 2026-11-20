@@ -1,3 +1,5 @@
+setopt HIST_IGNORE_SPACE
+
 #alias cadefetch="krabby name charcadet --no-title --padding-left 2 | fastfetch --logo-type file --logo -"
 function cadefetch {
      fastfetch --logo-type file --logo $($DOTCADENCE/cadefetch_pokemon_path)
@@ -5,9 +7,12 @@ function cadefetch {
 cadefetch
 echo
 
+alias cf="cadefetch"
 alias gotodc="cd $DOTCADENCE"
 alias stow="stow -t $HOME"
 alias plasma="dbus-run-session startplasma-wayland"
+alias sl="sl -e"
+alias emacs="emacs -nw"
 
 setopt histignorealldups sharehistory
 
@@ -44,6 +49,7 @@ ZSH_THEME=""
 plugins=(git)
 zstyle ':omz:update' mode disabled
 source $ZSH/oh-my-zsh.sh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=244'
 
 # Debian packages
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

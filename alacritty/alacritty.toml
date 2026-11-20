@@ -8,7 +8,7 @@ program = "/bin/zsh"
 args = ["-l"]
 
 [window]
-opacity = 0.85
+opacity = 0.75
 blur = true
 
 [window.padding]
@@ -18,6 +18,10 @@ y = 5
 [window.dimensions]
 columns = 120
 lines = 35
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+thickness = 0.3
 
 ## CASCADIA CODE
 [font.normal]
