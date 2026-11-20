@@ -25,5 +25,3 @@ function emacs { emacs.exe -nw @args }
 
 function mklink { cmd.exe /c mklink @args }
 
-function less { & 'C:\Program Files\Git\usr\bin\less.exe' @args }
-
