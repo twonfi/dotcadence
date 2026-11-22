@@ -49,7 +49,8 @@ ZSH_THEME=""
 plugins=(git)
 zstyle ':omz:update' mode disabled
 source $ZSH/oh-my-zsh.sh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=244'
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=247'
 
 # Debian packages
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
